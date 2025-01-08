@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    width:100%px;
+    height: 700px;
+    padding: 10px;
+    display: flex;
+    flex-wrap:wrap ;
+    font-weight: bold;
+    color: white;
+    
+
+}
+.item{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.img1,.img2,.img3,.img4{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+    opacity: 1;
+    transform:  0.3s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+.img5,.img6,.img7,.img8{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    object-fit: cover;
+    opacity: 1;
+    transform: opacity 0.3s;
+}
+p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    opacity: 0;
+
+    transition:  0.3s ease;
+font-size: 30px;
+
+}
+.item1:hover p{
+    
+    background-color: black;
+    opacity: 1;
+    
+}
+.item1:hover .img1{
+    opacity: 0;
+}
+.item2:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item2:hover .img2 {
+    opacity: 0;
+}
+.item3:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item3:hover .img3{
+    opacity: 0;
+}
+.item4:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item4:hover .img4{
+    opacity: 0;
+}
+.item5:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item5:hover .img5{
+    opacity: 0;
+}
+.item6:hover p{
+    background-color: black;
+    opacity: 1;
+
+}
+.item6:hover .img6{
+    opacity: 0;
+}
+.item7:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item7:hover .img7{
+    opacity: 0;
+}
+.item8:hover p{
+    background-color: black;
+    opacity: 1;
+}
+.item8:hover .img8{
+    opacity: 0;
+}
